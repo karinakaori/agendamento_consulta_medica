@@ -1,30 +1,30 @@
-# Analise Qualitativa dos Riscos
+# Análise Qualitativa dos Riscos
 
 ## Criterios utilizados
 
-A analise considera probabilidade, impacto e prioridade de tratamento.
+A análise considera probabilidade, impacto e prioridade de tratamento.
 
 | Nivel | Probabilidade | Impacto |
 | --- | --- | --- |
-| Baixo | Pouco provavel no contexto atual | Afeta pouco o prazo, custo, escopo ou qualidade |
-| Medio | Pode ocorrer se nao houver controle | Afeta entregas importantes, mas com recuperacao possivel |
-| Alto | Ja existem sinais claros de ocorrencia | Pode comprometer prazo, qualidade, seguranca ou entrega |
+| Baixo | Pouco provável no contexto atual | Afeta pouco o prazo, custo, escopo ou qualidade |
+| Médio | Pode ocorrer se não houver controle | Afeta entregas importantes, mas com recuperação possível |
+| Alto | Já existem sinais claros de ocorrência | Pode comprometer prazo, qualidade, segurança ou entrega |
 
-## Matriz de analise
+## Matriz de análise
 
 | ID | Risco | Probabilidade | Impacto | Prioridade | Impactos principais | Fatores condicionantes |
 | --- | --- | --- | --- | --- | --- | --- |
-| R01 | Falha ou atraso na integracao com o prontuario externo | Alta | Alto | Critica | Bloqueio de funcionalidade essencial, atraso na homologacao, retrabalho tecnico. | Documentacao incompleta da API, mudancas recentes no sistema externo, dependencia de terceiros. |
-| R02 | Mudancas de requisitos no fluxo de agendamento | Alta | Medio/Alto | Alta | Aumento de escopo, replanejamento, retrabalho em telas, regras e testes. | Solicitacoes sem controle formal, regras de negocio ainda em amadurecimento, baixa priorizacao. |
-| R03 | Sobrecarga da equipe | Alta | Alto | Critica | Queda de produtividade, aumento de defeitos, atraso nas entregas e desgaste da equipe. | Equipe pequena, apenas 1 tester, acumulacao de mudancas e integracao critica instavel. |
-| R04 | Baixa cobertura de testes em fluxos criticos | Media | Alto | Alta | Defeitos em agendamento, notificacoes ou integracao podem chegar a homologacao ou producao. | Pouco tempo para testes regressivos, fluxo de negocio com muitas validacoes, concentracao da validacao em uma pessoa. |
-| R05 | Retrabalho por documentacao insuficiente | Media | Medio | Media | Perda de historico de decisoes, divergencia entre stakeholders e equipe tecnica. | Falta de padrao para atas, decisoes, mudancas e criterios de aceite. |
-| R06 | Indisponibilidade ou baixo desempenho do sistema externo | Media | Alto | Alta | Falhas na confirmacao de consultas, experiencia ruim do usuario e dependencia operacional. | SLA desconhecido, ambiente externo instavel, ausencia de estrategia de contingencia. |
-| R07 | Problemas de seguranca e privacidade de dados | Media | Alto | Alta | Exposicao de dados sensiveis, risco legal, perda de confianca e necessidade de correcao urgente. | Tratamento de dados de saude, logs inadequados, trafego sem controles, uso indevido de ferramentas externas. |
-| R08 | Comunicacao insuficiente com stakeholders | Media | Medio | Media | Decisoes tardias, expectativas desalinhadas e pressao por prazo sem visibilidade tecnica. | Relatorios pouco objetivos, falta de narrativa de risco, ausencia de opcoes de decisao. |
+| R01 | Falha ou atraso na integração com o prontuário externo | Alta | Alto | Crítica | Bloqueio de funcionalidade essencial, atraso na homologação, retrabalho técnico. | Documentação incompleta da API, mudanças recentes no sistema externo, dependência de terceiros. |
+| R02 | Mudanças de requisitos no fluxo de agendamento | Alta | Médio/Alto | Alta | Aumento de escopo, replanejamento, retrabalho em telas, regras e testes. | Solicitações sem controle formal, regras de negócio ainda em amadurecimento, baixa priorização. |
+| R03 | Sobrecarga da equipe | Alta | Alto | Crítica | Queda de produtividade, aumento de defeitos, atraso nas entregas e desgaste da equipe. | Equipe pequena, apenas 1 tester, acumulação de mudanças e integração crítica instável. |
+| R04 | Baixa cobertura de testes em fluxos críticos | Média | Alto | Alta | Defeitos em agendamento, notificações ou integração podem chegar à homologação ou produção. | Pouco tempo para testes regressivos, fluxo de negócio com muitas validações, concentração da validação em uma pessoa. |
+| R05 | Retrabalho por documentação insuficiente | Média | Médio | Média | Perda de histórico de decisões, divergência entre stakeholders e equipe técnica. | Falta de padrão para atas, decisões, mudanças e critérios de aceite. |
+| R06 | Indisponibilidade ou baixo desempenho do sistema externo | Média | Alto | Alta | Falhas na confirmação de consultas, experiência ruim do usuário e dependência operacional. | SLA desconhecido, ambiente externo instável, ausência de estratégia de contingência. |
+| R07 | Problemas de segurança e privacidade de dados | Média | Alto | Alta | Exposição de dados sensíveis, risco legal, perda de confiança e necessidade de correção urgente. | Tratamento de dados de saúde, logs inadequados, tráfego sem controles, uso indevido de ferramentas externas. |
+| R08 | Comunicação insuficiente com stakeholders | Média | Médio | Média | Decisões tardias, expectativas desalinhadas e pressão por prazo sem visibilidade técnica. | Relatórios pouco objetivos, falta de narrativa de risco, ausência de opções de decisão. |
 
-## Sintese da analise
+## Síntese da análise
 
-O maior ponto de atencao do projeto e a dependencia da integracao com o sistema externo de prontuario. Como essa integracao e critica, qualquer instabilidade afeta diretamente a entrega. Ao mesmo tempo, as mudancas no fluxo de agendamento aumentam o escopo e pressionam uma equipe pequena, o que eleva a chance de atraso e queda de qualidade.
+O maior ponto de atenção do projeto é a dependência da integração com o sistema externo de prontuário. Como essa integração é crítica, qualquer instabilidade afeta diretamente a entrega. Ao mesmo tempo, as mudanças no fluxo de agendamento aumentam o escopo e pressionam uma equipe pequena, o que eleva a chance de atraso e queda de qualidade.
 
-Os riscos de seguranca tambem precisam ser tratados com prioridade, pois o aplicativo lida com informacoes de saude. Mesmo que nao bloqueiem imediatamente o cronograma, podem gerar impactos graves se forem descobertos tarde.
+Os riscos de segurança também precisam ser tratados com prioridade, pois o aplicativo lida com informações de saúde. Mesmo que não bloqueiem imediatamente o cronograma, podem gerar impactos graves se forem descobertos tarde.

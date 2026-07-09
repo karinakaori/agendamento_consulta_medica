@@ -1,33 +1,33 @@
-# Identificacao de Riscos
+# Identificação de Riscos
 
 ## Contexto
 
-O projeto consiste em um aplicativo movel para agendamento de consultas medicas. A equipe possui 4 desenvolvedores e 1 tester. A integracao com o sistema externo de prontuario e critica para a entrega do projeto.
+O projeto consiste em um aplicativo móvel para agendamento de consultas médicas. A equipe possui 4 desenvolvedores e 1 tester. A integração com o sistema externo de prontuário é crítica para a entrega do projeto.
 
-Nas ultimas semanas, foram observados tres sinais de alerta:
+Nas últimas semanas, foram observados três sinais de alerta:
 
-- instabilidade na integracao com o prontuario externo;
-- solicitacoes de mudancas no fluxo de agendamento;
+- instabilidade na integração com o prontuário externo;
+- solicitações de mudanças no fluxo de agendamento;
 - aumento da carga de trabalho e dificuldade para cumprir prazos.
 
 ## Riscos identificados
 
-| ID | Risco | Descricao breve | Contexto de ocorrencia |
+| ID | Risco | Descrição breve | Contexto de ocorrência |
 | --- | --- | --- | --- |
-| R01 | Falha ou atraso na integracao com o prontuario externo | A API externa pode permanecer instavel, mudar sem aviso ou continuar com documentacao insuficiente. | Ocorre durante desenvolvimento, testes integrados e homologacao da integracao. |
-| R02 | Mudancas de requisitos no fluxo de agendamento | Novas validacoes e regras de negocio podem alterar funcionalidades ja implementadas. | Ocorre quando stakeholders solicitam ajustes sem analise formal de impacto. |
-| R03 | Sobrecarga da equipe | A equipe pode nao conseguir absorver novas demandas sem comprometer prazo ou qualidade. | Ocorre pela combinacao de escopo crescente, integracao instavel e equipe reduzida. |
-| R04 | Baixa cobertura de testes em fluxos criticos | Funcionalidades de agendamento e integracao podem ser entregues com defeitos nao identificados. | Ocorre quando o unico tester precisa validar muitas mudancas em pouco tempo. |
-| R05 | Retrabalho por documentacao insuficiente | Decisoes, regras de negocio e detalhes tecnicos podem ficar dispersos ou desatualizados. | Ocorre em reunioes, alteracoes de API e mudancas de escopo sem registro estruturado. |
-| R06 | Indisponibilidade ou baixo desempenho do sistema externo | Mesmo com a integracao implementada, o prontuario externo pode apresentar lentidao ou indisponibilidade. | Ocorre em ambiente de testes, homologacao ou producao, afetando confirmacao e consulta de dados. |
-| R07 | Problemas de seguranca e privacidade de dados | Dados sensiveis de pacientes podem ser expostos ou tratados de forma inadequada. | Ocorre em cadastro, integracao, logs, notificacoes e trafego de dados entre sistemas. |
-| R08 | Comunicacao insuficiente com stakeholders | Stakeholders podem nao compreender impactos de mudancas e riscos tecnicos. | Ocorre quando o status do projeto e comunicado apenas como lista de problemas, sem decisoes e proximos passos. |
+| R01 | Falha ou atraso na integração com o prontuário externo | A API externa pode permanecer instável, mudar sem aviso ou continuar com documentação insuficiente. | Ocorre durante desenvolvimento, testes integrados e homologação da integração. |
+| R02 | Mudanças de requisitos no fluxo de agendamento | Novas validações e regras de negócio podem alterar funcionalidades já implementadas. | Ocorre quando stakeholders solicitam ajustes sem análise formal de impacto. |
+| R03 | Sobrecarga da equipe | A equipe pode não conseguir absorver novas demandas sem comprometer prazo ou qualidade. | Ocorre pela combinação de escopo crescente, integração instável e equipe reduzida. |
+| R04 | Baixa cobertura de testes em fluxos críticos | Funcionalidades de agendamento e integração podem ser entregues com defeitos não identificados. | Ocorre quando o único tester precisa validar muitas mudanças em pouco tempo. |
+| R05 | Retrabalho por documentação insuficiente | Decisões, regras de negócio e detalhes técnicos podem ficar dispersos ou desatualizados. | Ocorre em reuniões, alterações de API e mudanças de escopo sem registro estruturado. |
+| R06 | Indisponibilidade ou baixo desempenho do sistema externo | Mesmo com a integração implementada, o prontuário externo pode apresentar lentidão ou indisponibilidade. | Ocorre em ambiente de testes, homologação ou produção, afetando confirmação e consulta de dados. |
+| R07 | Problemas de segurança e privacidade de dados | Dados sensíveis de pacientes podem ser expostos ou tratados de forma inadequada. | Ocorre em cadastro, integração, logs, notificações e tráfego de dados entre sistemas. |
+| R08 | Comunicação insuficiente com stakeholders | Stakeholders podem não compreender impactos de mudanças e riscos técnicos. | Ocorre quando o status do projeto é comunicado apenas como lista de problemas, sem decisões e próximos passos. |
 
 ## Riscos mais relevantes
 
-Os riscos mais relevantes para resposta prioritaria sao:
+Os riscos mais relevantes para resposta prioritária são:
 
-- `R01`, por ser critico para a entrega do produto;
+- `R01`, por ser crítico para a entrega do produto;
 - `R02`, por afetar escopo, prazo e retrabalho;
-- `R03`, por impactar diretamente capacidade de execucao;
-- `R07`, por envolver dados sensiveis de pacientes e conformidade.
+- `R03`, por impactar diretamente capacidade de execução;
+- `R07`, por envolver dados sensíveis de pacientes e conformidade.
