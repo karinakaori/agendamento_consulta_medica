@@ -2,7 +2,7 @@
 
 ## Contexto
 
-O projeto consiste em um aplicativo móvel para agendamento de consultas médicas. A equipe possui 4 desenvolvedores e 1 tester. A integração com o sistema externo de prontuário é crítica para a entrega do projeto.
+O projeto consiste em um aplicativo móvel para agendamento de consultas médicas. A equipe possui 4 desenvolvedores e 1 QA. A integração com o sistema externo de prontuário é crítica para a entrega do projeto.
 
 Nas últimas semanas, foram observados três sinais de alerta:
 
