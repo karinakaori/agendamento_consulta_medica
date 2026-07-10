@@ -2,7 +2,7 @@
 
 ## Status do projeto
 
-O projeto do aplicativo de agendamento de consultas médicas está em fase intermediária de desenvolvimento. Funcionalidades importantes já foram iniciadas ou parcialmente implementadas, incluindo cadastro de usuários, gestão de agenda, agendamento, notificações e integração com o sistema externo de prontuário.
+O projeto do aplicativo de agendamento de consultas médicas está em fase intermediária de desenvolvimento. Funcionalidades importantes já foram iniciadas e parcialmente implementadas, incluindo cadastro de usuários, gestão de agenda, agendamento, notificações e integração com o sistema externo de prontuário.
 
 Nas últimas semanas, foram identificados pontos de atenção que podem afetar prazo, escopo e qualidade da entrega. O principal risco está relacionado à integração com o prontuário externo, que apresentou instabilidade e depende de documentação de API mais clara. Além disso, houve novas solicitações de mudança no fluxo de agendamento, incluindo validações e regras de negócio adicionais.
 
