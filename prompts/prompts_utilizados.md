@@ -3,7 +3,7 @@
 ## Prompt para identificação de riscos
 
 ```text
-Atue como gerente de projetos de software. Analise o seguinte cenário: um aplicativo móvel para agendamento de consultas médicas está em fase intermediária de desenvolvimento. O sistema inclui cadastro de usuários, gestão de agenda médica, agendamento de consultas, notificações e integração com sistema externo de prontuário. A integração está instável por falta de documentação clara da API e mudanças recentes no sistema externo. Stakeholders solicitaram alterações no fluxo de agendamento. A equipe possui 4 desenvolvedores e 1 tester e relatou aumento da carga de trabalho. Liste riscos do projeto, descreva cada risco e indique o contexto em que podem ocorrer.
+Atue como gerente de projetos de software. Analise o seguinte cenário: um aplicativo móvel para agendamento de consultas médicas está em fase intermediária de desenvolvimento. O sistema inclui cadastro de usuários, gestão de agenda médica, agendamento de consultas, notificações e integração com sistema externo de prontuário. A integração está instável por falta de documentação clara da API e mudanças recentes no sistema externo. Stakeholders solicitaram alterações no fluxo de agendamento. A equipe possui 4 desenvolvedores e 1 QA e relatou aumento da carga de trabalho. Liste riscos do projeto, descreva cada risco e indique o contexto em que podem ocorrer.
 ```
 
 ## Prompt para análise qualitativa
